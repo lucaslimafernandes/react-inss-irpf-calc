@@ -10,7 +10,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
 function FormBasic() {
-  const [valor, setValor] = React.useState(0); // mantenha numérico
+  const [valor, setValor] = React.useState(0);
 
   return (
     <div>
@@ -21,7 +21,7 @@ function FormBasic() {
           label="Salário bruto"
           variant="outlined"
           type="number"
-          onChange={(e) => setValor(Number(e.target.value))} // converte aqui
+          onChange={(e) => setValor(Number(e.target.value))}
         />
       </div>
 
